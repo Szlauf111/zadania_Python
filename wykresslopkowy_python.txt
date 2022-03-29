@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array(["Niemcy", "Francja", "Włochy", "Hiszpania", "Polska", "Rumunia", "Holandia", "Belgia", "Grecja", "Czechy", "Portugalia", "Szwecja", "Węgry", "Austria", "Bułgaria", "Dania", "Finlandia", "Słowacja", "Irlandie", "Chorwacja", "Litwa", "Słowenia", "Łotwa", "Estonia", "Cypr", "Luksemburg", "Malta"])
+y = np.array([3134070, 2228857, 1672438, 1113851, 424269, 169578, 697219, 421611, 175888, 175888, 184931, 462057, 112399, 349344, 47364, 276805, 214062, 80958, 265835, 45557, 45557, 39769, 25021, 20916, 17901, 54195, 9898])
+
+plt.bar(x, y, width = 0.5)
+plt.show()
