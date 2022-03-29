@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+y = np.array([24.1, 25.7, 14.8, 11.5, 10.3, 4.9, 8.6])
+mylabels = ["CDU/CSU 24,1%", "SPD 25,7%", "Greens 14,8%", "FDP 11,5%", "AfD 10,3%", "Left Party 4,9%", "Others 8,6%"]
+myexplode = [0, 0.2, 0, 0, 0,0, 0 ]
+mycolors = ["000000", "#ff5050", "#99ff99", "#ffff66", "#33ccff", "#b30047", "#f0f5f5"]
+
+plt.pie(y, labels = mylabels, explode = myexplode, shadow = True, colors = mycolors)
+plt.show()
